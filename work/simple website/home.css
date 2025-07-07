@@ -1,0 +1,59 @@
+body
+{
+    width:100%;
+}
+header
+{
+    
+    height: 60px;
+    background-color: black;
+    
+    
+}
+.logo
+{
+    height: 50px;
+    width: 40px;
+    background-image: url(./images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table ul li
+{
+list-style: none;
+}
+li a
+{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.banner
+{
+    height: 600px;
+    background-image: url(./banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.product
+{
+    height: 850px;
+}
+img
+{
+    width:150px;
+    height: 150px;
+}
+footer
+{
+    
+    height: 200px;
+    background-color: black;
+    color: white;
+}

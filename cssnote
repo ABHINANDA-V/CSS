@@ -10,4 +10,5 @@ Faster Page Load Times.
 Allows for Theming and Customization.
 Facilitates Animation and Visual .
 
-CSS
+How to add CSS to HTML
+1.Inline CSS:CSS is written directly inside an html element using the style attribute use when you want to apply a quick,one-time to 
