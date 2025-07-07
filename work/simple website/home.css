@@ -10,14 +10,7 @@ header
     
     
 }
-.logo
-{
-    height: 50px;
-    width: 40px;
-    background-image: url(./images/logo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 table ul li
 {
 list-style: none;
@@ -35,7 +28,7 @@ li a
 .banner
 {
     height: 600px;
-    background-image: url(./banner.webp);
+    background-image: url(./images/banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
     
