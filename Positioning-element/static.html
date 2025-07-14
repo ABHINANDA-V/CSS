@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static</title>
+   <style>
+    .static1 
+    {
+        background-color: burlywood;
+        padding: 20px;
+        position: static;/*default positioning - you can even remove this line*/
+    }
+    .static2
+    {
+        background-color: crimson;
+        padding: 20px;
+        position: static;
+        top:50px;/* this will have no effect */
+        left:50px;/* this will have no effect */
+    }
+   </style>
+</head>
+<body>
+    <div class="static1">Box 1 - static</div>
+    <div class="static2">Box 2 - static(top/left has no effect)</div>
+
+    <!--default position for all html elements.
+It doesn't respond to top,right,bottom or left properties.
+No special positioning.-->
+    
+</body>
+</html>
