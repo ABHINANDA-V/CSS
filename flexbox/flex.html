@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container
+        {
+            display: flex;/*enable flex box */
+            flex-direction: row;/* horizontal layout*/
+            justify-content: space-between;/*spread items horizontally*/
+            align-items: center;/*align items vertically*/
+            flex-wrap:wrap;/*allow items to wrap to the next line */
+            height: 200px;
+            border:2px solid grey;
+            padding: 10px;
+
+        }
+        .item
+        {
+            background-color: lightblue;
+            padding: 20px;
+            margin: 10px;
+            flex:1 1 300px;/* grow,shrink,base width */
+            border: 1px solid blue;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Flexbox Layout Example</h2>
+    <div class="container">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+    </div>
+</body>
+</html>
+It makes it easy to align, distribute and space child elements in one dimension(row or column).
+Common Flex properties:
+1.flex-direction:row(default)
+                column
+2.justify-content:horizontal alignment
+3.align-items:vertical alignment
+4.flex-wrap:wrap 
+            no-wrap
