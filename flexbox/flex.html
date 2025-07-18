@@ -15,7 +15,6 @@
             height: 200px;
             border:2px solid grey;
             padding: 10px;
-
         }
         .item
         {
@@ -25,7 +24,6 @@
             flex:1 1 300px;/* grow,shrink,base width */
             border: 1px solid blue;
             text-align: center;
-
         }
     </style>
 </head>
@@ -38,13 +36,17 @@
         <div class="item">item4</div>
         <div class="item">item5</div>
     </div>
+    <!--It is used to align and distribute child elements in one dimension(row or column).
+To use flexbox set display:flex; on the container.
+Common Flex properties:
+1.display:flex; It turns the container into a flex container.
+2.flex-direction:row(default)/
+                column; Defines the direction of the main axis.
+3.justify-content:horizontal alignment of the elements.
+4.align-items:vertical alignment of the element.
+5.flex-wrap:wrap /
+            no-wrap; Allows items to wrap onto multiple lines.nowrap is default.
+6.gap adds space between items(replaces margin hacks)
+-->
 </body>
 </html>
-It makes it easy to align, distribute and space child elements in one dimension(row or column).
-Common Flex properties:
-1.flex-direction:row(default)
-                column
-2.justify-content:horizontal alignment
-3.align-items:vertical alignment
-4.flex-wrap:wrap 
-            no-wrap
