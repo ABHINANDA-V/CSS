@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubic Bezier Example</title>
+    <style>
+        .box1,.box2,.box3
+        {
+            width:150px;
+            height: 150px;
+            margin:10px;
+            position: relative;
+        }
+        .box1
+        {
+            background-color: rgb(73, 8, 134);
+            animation: movebox1 3s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate;
+        }
+        @keyframes movebox1
+        {
+            from
+            {
+                left:0;
+            }
+            to 
+            {
+                left:400px;
+            }
+        }
+
+        .box2
+        {
+            background-color: rgb(6, 75, 75);
+            animation: movebox2 3s cubic-bezier(0.455, 0.03, 0.515, 0.955)infinite alternate;
+        }
+        @keyframes movebox2
+        {
+            from 
+            {
+                left:300px;
+            }
+            to 
+            {
+                left:500px;
+            }
+        }
+
+        .box3
+        {
+            background-color: rgb(206, 11, 11);
+            animation: movebox3 4s cubic-bezier(0.215, 0.610, 0.355, 1)infinite alternate-reverse;
+        }
+        @keyframes movebox3
+        {
+            from 
+            {
+                left:30px;
+            }
+            to 
+            {
+                left:700px;
+            }
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <h2>Cubic Bezier Examples</h2>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[required]
+        {
+            /*1.[attr] - has required*/
+        }
+        input[type="email"]
+        {
+            /*2. [attr="value"] - exact match*/
+            background-color: aqua;
+        }
+        div[class="Highlit"]
+        {
+            /*3.[attr~="value"] */
+            background-color: yellow;
+        }
+        p[lang|="en"]
+        {
+            /*4.[attr|="value"] - exact or start with */
+            color: blue;
+        }
+        a[href*="about"]
+        {
+            /*7.[attr*="value"] - contains value */
+            font-weight: bold;
+            text-decoration: underline;
+            color: red;
+        }
+        img[src$=".jpg"]
+        {
+            /*6.[attr$="value"] - end with */
+            border:2px dashed purple;
+            width:120px;
+        }
+    
+    </style>
+</head>
+<body>
+    <h2>CSS Attribute Selector Demo</h2>
+    <input type="text" placeholder="your name" required><br><br>
+    <input type="email" placeholder="Your email"><br><br>
+    <div class="box Highlit">Highlited box</div>
+    <p lang="en">English Paragraph</p>
+    <a href="https://example.com/home">Home Page</a><br>
+    <!--<a href="./basic.html">hi</a>-->
+
+    <a href="https://example.com/about">About Us</a><br>
+    <img src="" alt="">
+
+    <img src="https://www.google.com/imgres?q=birds&imgurl=https%3A%2F%2Fcdn.britannica.com%2F10%2F250610-050-BC5CCDAF%2FZebra-finch-Taeniopygia-guttata-bird.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fanimal%2Fbird-animal&docid=Fg9E3dTVbnDpdM&tbnid=mOIDM2hGvvJMZM&vet=12ahUKEwjF2qj-38-OAxVCZfUHHTzoGcQQM3oECBIQAA..i&w=1600&h=1058&hcb=2&ved=2ahUKEwjF2qj-38-OAxVCZfUHHTzoGcQQM3oECBIQAA">
+    
+
+</body>
+</html>
